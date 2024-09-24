@@ -9,7 +9,7 @@ const Sidenav = () => {
   };
   const menuItems = ['Main', 'Resume', 'Projects', 'Contact'];
   return (
-    <div className='z-40'>
+    <div className='z-50'>
       <AiOutlineMenu
         onClick={handleNav}
         className="fixed top-8 right-8 md:hidden"

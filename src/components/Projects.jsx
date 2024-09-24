@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem.jsx'
 
 const data = [
     {
-        year: 2001,
+        year: 2024,
         title: 'Biblider',
         identity: 'React, Node.js, Express, MongoDB, Google Cloud Platform',
         img: 'https://wallpapers.com/images/hd/1920x1080-aesthetic-glrfk0ntspz3tvxg.jpg',
@@ -12,13 +12,13 @@ const data = [
         'Biblider is a non-profit web application that helps users memorize bible verses. Though still in development, my goal is to utilize speech-text recognition to provide a more interactive experience for users. ' 
     },
     {
-        year: 2010,
-        title: 'Project Title',
-        identity: 'meow',
+        year: 2023,
+        title: 'Rate My Professor Graph Builder',
+        identity: 'Streamlit, RateMyProfessor API, Python, Pandas, Numpy',
         img: 'https://i.pinimg.com/originals/a8/55/df/a855df51ab9b3b503221419fd614970f.png',
         link: '',
         details:
-        'meow'
+        'Built a web application that allows users to search for professor ratings organized by Course Number. Still under development for interactive searching and filtering.'
     },
     {
         year: 2023,

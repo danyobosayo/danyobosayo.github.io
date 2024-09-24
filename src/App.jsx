@@ -8,10 +8,10 @@ function App() {
   return (
     <div>
       <Main />
-      <Sidenav />
       <Resume />
       <Projects />
       <Contact />
+      <Sidenav />
     </div>
   );
 }
