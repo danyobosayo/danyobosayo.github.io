@@ -10,3 +10,5 @@ export default {
   plugins: [],
 }
 
+//#979089 secondary
+// primary #a39a8f

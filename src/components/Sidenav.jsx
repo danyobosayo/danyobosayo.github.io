@@ -7,19 +7,22 @@ const Sidenav = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-  const menuItems = ['Home', 'Resume', 'Projects', 'Contact'];
+  const menuItems = ['Main', 'Resume', 'Projects', 'Contact'];
   return (
-    <div>
+    <div className='z-40'>
       <AiOutlineMenu
         onClick={handleNav}
-        className="absolute top-8 right-8 z-20 md:hidden"
+        className="fixed top-8 right-8 md:hidden"
       />
-      <div className={`fixed inset-0 z-00 bg-white/30 flex flex-col justify-center items-center transition-opacity duration-300 ease-in-out ${nav ? 'opacity-100' : 'opacity-100 pointer-events-none'}`}>
+      <div className={`fixed inset-0 transition-opacity duration-300 ease-in-out ${nav ? 'opacity-100' : 'opacity-100 pointer-events-none'}`}>
+        <div onclick='' className={`absolute w-full h-screen flex flex-col items-center justify-center bg-black opacity-0 transition-opacity duration-300 ease-in-out ${nav ? 'opacity-70' : 'opacity-0 pointer-events-none'}`}> 
+
         {menuItems.map((item, index) => (
           <a
+            onClick={handleNav}
             key={item}
             href={`#${item.toLowerCase()}`}
-            className={`w-[30%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-105 ease-in duration-200 group transition-all ${nav ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
+            className={`flex w-[50%] justify-center items-center rounded-full shadow-lg bg-[#f4f4f4] m-2 px-10 py-2 hover:scale-105 ease-in duration-200 group transition-all ${nav ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
             style={{ transitionDelay: `${index * 100}ms` }}
           >
             <div className="relative">
@@ -29,6 +32,7 @@ const Sidenav = () => {
             <span className="pl-4">{item}</span>
           </a>
         ))}
+          </div>
       </div>
 
       <div className='md:block hidden fixed top-[25%] z-10'>
@@ -37,9 +41,14 @@ const Sidenav = () => {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-4 p-6 cursor-pointer hover:scale-110 ease-in duration-200 group'
+              className='relative hover:scale-110 rounded-full shadow-lg bg-[#b3afaf] z-20 m-4 p-6 cursor-pointer ease-in duration-200'
             >
               <div className="relative translate-x-1">
+                <div className='absolute bg-[#e1e1e1] py-3 w-4/12 rounded-full duration-300 -translate-y-6'>
+                  <div className='relative translate-x-8'>
+                  {`${item.toLowerCase()}`}
+                  </div>
+                </div>
                 {getIcon(item, 'default')}
                 {getIcon(item, 'hover')}
               </div>
@@ -53,7 +62,7 @@ const Sidenav = () => {
 
 const getIcon = (item, type) => {
   const icons = {
-    Home: { default: TbHome, hover: TbHomeHand },
+    Main: { default: TbHome, hover: TbHomeHand },
     Resume: { default: TbFile, hover: TbFileSmile },
     Projects: { default: TbFolder, hover: TbFolderOpen },
     Contact: { default: TbMail , hover: TbBrandAmongUs },
