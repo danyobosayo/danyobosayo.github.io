@@ -24,7 +24,7 @@ const ProjectItem = ({ year, title, identity, image, link, details }) => {
                 />
               </a>
             </div>
-            <div className="flex-col mx-4 mt-4">
+            <div className="flex-col mx-8 mt-4">
               <span className="mb-2 text-xl font-normal leading-none">
                 {identity}
               </span>
