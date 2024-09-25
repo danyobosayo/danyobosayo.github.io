@@ -6,7 +6,7 @@ const data = [
         year: 2024,
         title: 'Biblider',
         identity: 'React, Node.js, Express, MongoDB, Google Cloud Platform',
-        img: 'https://wallpapers.com/images/hd/1920x1080-aesthetic-glrfk0ntspz3tvxg.jpg',
+        img: 'https://i.imgur.com/v3A9tTH.png',
         link: '',
         details:
         'Biblider is a non-profit web application that helps users memorize bible verses. Though still in development, my goal is to utilize speech-text recognition to provide a more interactive experience for users. ' 
@@ -15,8 +15,8 @@ const data = [
         year: 2023,
         title: 'Rate My Professor Graph Builder',
         identity: 'Streamlit, RateMyProfessor API, Python, Pandas, Numpy',
-        img: 'https://i.pinimg.com/originals/a8/55/df/a855df51ab9b3b503221419fd614970f.png',
-        link: '',
+        img: 'https://i.imgur.com/HCaTrFA.png',
+        link: 'https://github.com/danyobosayo/rmp',
         details:
         'Built a web application that allows users to search for professor ratings organized by Course Number. Still under development for interactive searching and filtering.'
     },
@@ -24,7 +24,7 @@ const data = [
         year: 2023,
         title: 'HackSMU V Project: YouMood',
         identity: 'Flask, Streamlit, Google Cloud Platform, Python, Sentiment Analysis',
-        img: 'https://wallpapers.com/images/hd/1920x1080-full-hd-nature-sunny-clouds-7fetljf7qyco7qsq.jpg',
+        img: 'https://i.imgur.com/7QqV1WZ.png',
         link: 'https://github.com/jor-dango/smuv',
         details:
         'Primarily worked on the backend. Used Flask and Streamlit. Used Google Cloud Platform apis such as Cloud Natural Language and Cloud Storage. Pulled youtube video information with Google\'s Youtube API'

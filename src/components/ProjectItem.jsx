@@ -15,11 +15,11 @@ const ProjectItem = ({ year, title, identity, image, link, details }) => {
             </span>
           </p>
           <div className="flex flex-col lg:flex-row mt-4 ">
-            <div className="relative flex justify-center md:min-w-[450px] md:max-w-[450px] md:max-h-[250px] md:min-h-[250px] hover:scale-105 duration-500 ease-in-out">
+            <div className="relative flex justify-center lg:min-w-[750px] lg:max-w-[750px] lg:max-h-[450px] lg:min-h-[450px] hover:scale-105 duration-500 ease-in-out">
               <a href={link} target='_blank'>
                 <img
                   src={image}
-                  className="md:min-w-[450px] md:min-h-[250px] w-fit h-fit object-cover border-8 border-[#a39a8f] rounded-2xl group-hover:opacity-10"
+                  className="lg:min-w-[750px] lg:max-w-[750px] lg:max-h-[450px] lg:min-h-[450px] w-fit h-fit object-cover border-8 border-[#a39a8f] rounded-2xl group-hover:opacity-10"
                   alt={title}
                 />
               </a>
