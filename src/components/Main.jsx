@@ -33,14 +33,14 @@ const Main = () => {
           />
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <a href='https://github.com/danyobosayo' target='_blank'>
-            <FaGithub size={20} className='cursor-pointer'/>
+            <a className="hover:opacity-70 duration-150" href='https://github.com/danyobosayo' target='_blank'>
+            <FaGithub size={30} className='cursor-pointer'/>
             </a>
-            <a href='https://www.instagram.com/sungsu._.k?igsh=MTJnMWVvNG5ibDJvdg%3D%3D&utm_source=qr' target='_blank'>
-            <FaInstagram size={20} className='cursor-pointer'/>
+            <a className="hover:opacity-70 duration-150" href='https://www.instagram.com/sungsu._.k?igsh=MTJnMWVvNG5ibDJvdg%3D%3D&utm_source=qr' target='_blank'>
+            <FaInstagram size={30} className='cursor-pointer'/>
             </a>
-            <a href='https://www.linkedin.com/in/danielsungsukim/' target='_blank'>
-            <FaLinkedin size={20} className='cursor-pointer'/>
+            <a className="hover:opacity-70 duration-150" href='https://www.linkedin.com/in/danielsungsukim/' target='_blank'>
+            <FaLinkedin size={30} className='cursor-pointer'/>
             </a>
           </div>
         </div>
