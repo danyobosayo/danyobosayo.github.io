@@ -10,7 +10,7 @@ const Resume = () => {
         <div className='lg:max-w-[70%] min-w-[100%] flex justify-center lg:m-auto'>
           <div className='relative p-2 overflow-hidden'>
             <a className='relative block' href='/danielkim.github.io/files/danielkimresume.pdf' target='_blank'>
-              <img className='border-black/60 border-4 rounded-lg relative lg:h-fit lg:w-fit object-cover flex hover:opacity-75 duration-100 ease-in ' src="https://i.imgur.com/eBvXiko.png" alt="Daniel Kim's Resume" />
+              <img className='border-black/60 border-4 rounded-lg relative lg:h-fit lg:w-fit object-cover flex hover:opacity-60 duration-100 ease-in ' src="https://i.imgur.com/eBvXiko.png" alt="Daniel Kim's Resume" />
             </a>
           </div>
         </div>
