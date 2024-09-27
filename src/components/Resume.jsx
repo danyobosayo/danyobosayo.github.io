@@ -7,10 +7,10 @@ const Resume = () => {
         <h1 className='py-10 text-5xl font-bold text-center text-[#979089]'>
             Resume
         </h1>
-        <div className='md:max-w-[70%] min-w-[100%] flex justify-center md:m-auto'>
+        <div className='lg:max-w-[70%] min-w-[100%] flex justify-center lg:m-auto'>
             <div>
-            <a className='mb-2' href='https://scarlet-janette-45.tiiny.site/' target='_blank'>
-            <img className='md:h-fit md:w-fit object-cover flex border-8 border-gray-400 hover:opacity-75 duration-100 ease-in' src="https://i.imgur.com/eBvXiko.png" 
+            <a className='mb-2' href='/danielkim.github.io/public/files/danielkimresume.pdf' target='_blank'>
+            <img className='lg:h-fit lg:w-fit object-cover flex border-8 border-gray-400 hover:opacity-75 duration-100 ease-in' src="https://i.imgur.com/eBvXiko.png" 
             alt="Daniel Kim's Resume" />
             </a>
             </div>
