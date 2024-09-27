@@ -60,7 +60,7 @@ const Sidenav = () => {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="relative group hover:scale-110 rounded-full shadow-lg bg-[#9c938e] z-20 m-4 p-6 cursor-pointer ease-in duration-200"
+              className="relative group hover:scale-110 rounded-full border-2 border-black bg-[#979089] z-20 m-4 p-6 cursor-pointer ease-in duration-200"
             >
               <div className="relative translate-x-1">
                 <div className="absolute bg-[#e1e1e1] py-3 w-4/12 rounded-full group-hover:opacity-100 duration-300 -translate-y-6">
