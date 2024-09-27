@@ -18,7 +18,7 @@ const Sidenav = () => {
   };
   const menuItems = ["Main", "Resume", "Projects", "Contact"];
   return (
-    <div className="z-50">
+    <div className="z-50 ">
       <AiOutlineMenu
         onClick={handleNav}
         className="fixed top-8 right-8 z-60 lg:hidden"
@@ -54,7 +54,7 @@ const Sidenav = () => {
         </div>
       </div>
 
-      <div className="lg:block hidden fixed top-[25%] z-10">
+      <div className="lg:block hidden animate-slideFade-delay-4 opacity-0 fixed top-[25%] z-10">
         <div className="flex flex-col">
           {menuItems.map((item) => (
             <a

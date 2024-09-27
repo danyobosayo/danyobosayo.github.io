@@ -1,18 +1,18 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaInstagram, FaLinkedin, FaDiscord } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover scale-x-[-1] opacity-60"
-        src="https://preview.redd.it/minimal-wallpapers-all-at-least-3440x1440-v0-smony6dnydr81.png?width=7681&format=png&auto=webp&s=a93d31d41141eb4b9848ea8b8e591e206372e729"
+        className="animate-flash w-full h-screen object-cover scale-x-[-1] opacity-60"
+        src="/danielkim.github.io/files/wallpaper.png"
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 z-0">
         <div className='max-w-[700px] m-auto lg:items-start items-center h-full w-full flex flex-col justify-center'>
-          <h1 className="text-7xl font-bold text-black">Daniel Kim</h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4">
+          <h1 className="text-5xl opacity-0 animate-slideFade-delay-1 font-bold text-black ">Hi. I'm Daniel</h1>
+          <h2 className="flex sm:text-3xl text-2xl pt-4 opacity-0 animate-slideFade-delay-2">
           <TypeAnimation
             sequence={[
               "Web Developer🖥️",
@@ -32,7 +32,7 @@ const Main = () => {
             repeat={Infinity}
           />
           </h2>
-          <div className='flex justify-between pt-6 max-w-[200px] w-full'>
+          <div className='flex justify-between opacity-0 pt-6 max-w-[200px] w-full animate-slideFade-delay-3'>
             <a className="hover:opacity-70 duration-150" href='https://github.com/danyobosayo' target='_blank'>
             <FaGithub size={30} className='cursor-pointer'/>
             </a>

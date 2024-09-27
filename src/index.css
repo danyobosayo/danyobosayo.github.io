@@ -5,3 +5,22 @@
 *{
     scroll-behavior: smooth;
 }
+
+@layer utilities {
+    .animate-slideFade-delay-1 {
+      @apply animate-slideFade;
+      animation-delay: 0s;
+    }
+    .animate-slideFade-delay-2 {
+      @apply animate-slideFade;
+      animation-delay: 0.3s;
+    }
+    .animate-slideFade-delay-3 {
+      @apply animate-slideFade;
+      animation-delay: .7s;
+    }
+    .animate-slideFade-delay-4 {
+      @apply animate-slideFade;
+      animation-delay: 1s;
+    }
+  }
