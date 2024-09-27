@@ -20,3 +20,4 @@ const Resume = () => {
 }
 
 export default Resume;
+///danielkim.github.io/files/wallpaper.png
