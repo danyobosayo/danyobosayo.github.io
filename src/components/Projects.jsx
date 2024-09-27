@@ -34,7 +34,7 @@ const data = [
 const Projects = () => {
   return (
     <div>
-    <div id ='projects' className='max-w-[80%] m-auto md: pl-20 p-4 py-16'>
+    <div id ='projects' className='max-w-[80%] m-auto lg: lg:pl-20 p-4 py-16'>
         <h1 className='text-5xl -translate-x-8 font-bold text-center text-[#979089] mb-12'>
             Projects
         </h1>
