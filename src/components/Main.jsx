@@ -6,7 +6,7 @@ const Main = () => {
     <div id="main">
       <img
         className="animate-flash w-full h-screen object-cover scale-x-[-1] opacity-60"
-        src="/danielkim.github.io/files/wallpaper.png"
+        src="./files/wallpaper.png"
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 z-0">
