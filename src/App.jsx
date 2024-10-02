@@ -1,19 +1,18 @@
-import { useState } from "react";
-import Sidenav from "./components/Sidenav.jsx";
-import Main from "./components/Main.jsx";
-import Projects from "./components/Projects.jsx";
-import Contact from "./components/Contact.jsx";
-import Resume from "./components/Resume.jsx";
+import React from 'react'
+import Hero from './Hero.jsx'
+import {Route, Routes, BrowserRouter} from 'react-router-dom'
+
 function App() {
   return (
     <div>
-      <Main />
-      <Resume />
-      <Projects />
-      <Contact />
-      <Sidenav />
+        <BrowserRouter>
+        <Routes>
+            <Route path="/" component={<Hero/>} />
+            <Route path="/danielkim.github.io/" component={<Hero/>} />
+        </Routes>
+        </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
