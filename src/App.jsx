@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
         <BrowserRouter>
+        <Switch>
         <Routes>
         <Route exact path="/danielkim.github.io">
           <Redirect to="/" />
@@ -15,6 +16,7 @@ function App() {
         </Route>
           {/* Your homepage component */}
         </Routes>
+        </Switch>
         </BrowserRouter>
     </div>
   )
