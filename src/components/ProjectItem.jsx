@@ -15,7 +15,7 @@ const ProjectItem = ({ year, title, identity, image, link, details }) => {
             </span>
           </p>
           <div className="flex flex-col lg:flex-row mt-4">
-            <div className="relative flex justify-center lg:max-w-[750px] lg:max-h-[450px] hover:drop-shadow-xl duration-200 ease-in-out">
+            <div className="relative flex justify-center lg:max-w-[750px] lg:max-h-[450px] hover:drop-shadow-[0_25px_35px_rgba(0,0,0,0.3)] duration-200 ease-in-out">
               <a href={link} target="_blank">
                 <img
                   src={image}

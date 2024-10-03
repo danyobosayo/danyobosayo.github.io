@@ -5,14 +5,14 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover scale-x-[-1] opacity-60"
+        className="w-full h-screen object-cover scale-x-[-1] opacity-80"
         src="/files/wallpaper2.jpg"
         alt=""
       />
       <div className="w-full h-screen absolute top-0 left-0 z-0">
         <div className="max-w-[700px] m-auto lg:items-start items-center h-full w-full flex flex-col justify-center">
           <h1 className="text-5xl opacity-0 animate-slideFade-delay-1 font-bold text-black ">
-            Hi. I'm Daniel
+            Hello! I'm Daniel 🌱
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 opacity-0 animate-slideFade-delay-2">
             <TypeAnimation
