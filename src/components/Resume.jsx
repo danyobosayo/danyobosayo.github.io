@@ -15,8 +15,8 @@ const Resume = () => {
               target="_blank"
             >
               <img
-                className="border-black/60 border-4 rounded-lg relative lg:h-fit lg:w-fit object-cover flex hover:opacity-60 duration-100 ease-in "
-                src="https://i.imgur.com/eBvXiko.png"
+                className="border-black/60 border-4 rounded-lg relative lg:h-fit lg:w-fit object-cover flex hover:opacity-70 duration-100 ease-in "
+                src='/files/resumepic.png'
                 alt="Daniel Kim's Resume"
               />
             </a>
