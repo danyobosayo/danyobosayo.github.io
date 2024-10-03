@@ -54,7 +54,7 @@ const Sidenav = () => {
         </div>
       </div>
 
-      <div className="lg:block hidden animate-slideFade-delay-4 opacity-0 fixed top-[25%] z-10">
+      <div className="lg:block hidden animate-slideFade-delay-4 opacity-0 fixed left-4 top-[34%] z-10">
         <div className="flex flex-col">
           {menuItems.map((item) => (
             <a
@@ -64,7 +64,7 @@ const Sidenav = () => {
             >
               <div className="relative translate-x-1">
                 <div className="absolute py-3 w-4/12 rounded-full group-hover:opacity-100 duration-300 -translate-y-6">
-                  <div className="relative translate-x-8">
+                  <div className="relative translate-x-8 text-black">
                     {`${item.toLowerCase()}`}
                   </div>
                 </div>

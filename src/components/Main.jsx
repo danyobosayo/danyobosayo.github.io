@@ -17,13 +17,13 @@ const Main = () => {
           <h2 className="flex sm:text-3xl text-2xl pt-4 opacity-0 animate-slideFade-delay-2">
             <TypeAnimation
               sequence={[
-                "Web Developer🖥️",
+                "Full Stack Developer🖥️",
                 2000,
                 "Food Lover🍣",
                 2000,
                 "Gamer🎮",
                 2000,
-                "Volleyball Enjoyer🏐",
+                "Rock Climber🧗",
                 1000,
                 "Cat Dad🐈",
                 2000,
