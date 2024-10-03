@@ -39,7 +39,7 @@ const Sidenav = () => {
               onClick={handleNav}
               key={item}
               href={`#${item.toLowerCase()}`}
-              className={`flex w-[50%] justify-center items-center rounded-full shadow-lg bg-[#f4f4f4] m-2 px-10 py-2 hover:scale-105 ease-in duration-200 group transition-all ${
+              className={`flex w-[50%] justify-center items-center rounded-full shadow-lg bg-[#dad2c9] m-2 px-10 py-2 hover:scale-105 ease-in duration-200 group transition-all ${
                 nav ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
               style={{ transitionDelay: `${index * 100}ms` }}
@@ -60,10 +60,10 @@ const Sidenav = () => {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="relative group hover:scale-110 rounded-full border-2 border-black bg-[#979089] z-20 m-4 p-6 cursor-pointer ease-in duration-200"
+              className="relative group hover:scale-110 hover:bg-[#b1a8a0] rounded-full border-2 border-black bg-[#dad2c9] z-20 m-4 p-6 cursor-pointer ease-in duration-200"
             >
               <div className="relative translate-x-1">
-                <div className="absolute bg-[#e1e1e1] py-3 w-4/12 rounded-full group-hover:opacity-100 duration-300 -translate-y-6">
+                <div className="absolute py-3 w-4/12 rounded-full group-hover:opacity-100 duration-300 -translate-y-6">
                   <div className="relative translate-x-8">
                     {`${item.toLowerCase()}`}
                   </div>
