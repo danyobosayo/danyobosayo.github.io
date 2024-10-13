@@ -7,7 +7,7 @@ const data = [
     title: "Biblider",
     identity: "React, Node.js, Express, MongoDB, Google Cloud Platform",
     img: "https://i.imgur.com/v3A9tTH.png",
-    link: "",
+    link: "https://bibzakar.netlify.app/",
     details:
       "Biblider is a non-profit web application that helps users memorize bible verses. Though still in development, my goal is to utilize speech-text recognition to provide a more interactive experience for users. ",
   },
