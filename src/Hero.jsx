@@ -10,7 +10,6 @@ function Hero() {
       <Main />
       <Resume />
       <Projects />
-      <Contact />
       <Sidenav />
     </div>
   );
