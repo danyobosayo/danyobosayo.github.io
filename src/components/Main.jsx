@@ -12,7 +12,7 @@ const Main = () => {
       <div className="w-full h-screen absolute top-0 left-0 z-0">
         <div className="max-w-[700px] m-auto lg:items-start items-center h-full w-full flex flex-col justify-center">
           <h1 className="text-5xl opacity-0 animate-slideFade-delay-1 font-bold text-black ">
-            Hello! I'm Daniel 🌱
+            Hi! I'm Daniel
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 opacity-0 animate-slideFade-delay-2">
             <TypeAnimation

@@ -4,12 +4,20 @@ import ProjectItem from "./ProjectItem.jsx";
 const data = [
   {
     year: 2024,
-    title: "Biblider",
-    identity: "React, Node.js, Web Speech API",
+    title: "Bibzakar",
+    identity: "React, JavaScript, Web Speech API, Firebase",
     img: "/files/bibzakar.png",
-    link: "https://bibzakar.netlify.app/",
+    link: "https://bibzakar.com",
     details:
-      "Biblider is a non-profit web application that helps users memorize bible verses. Though still in development, my goal is to utilize speech-text recognition to provide a more interactive experience for users. ",
+      "Biblider is a web application that helps users memorize bible verses. Though still in development, my goal is to provide a memorization tool for english speakers across the globe. ",
+  },
+  {
+    year: 2024,
+    title: "RowdyHacks 2024: Drivo",
+    identity: "React Native, Expo Go, TypeScript, Flask",
+    img: "/files/drivopic.png",
+    link:"https://devpost.com/software/stopgogo?ref_content=my-projects-tab&ref_feature=my_projects",
+    details: "Drivo is a mobile application that helps users avoid accidents by providing real-time alerts of traffic light changes. I worked on the backend, utilizing Flask to handle the data processing and analysis. I also worked on a few of the views in the frontend, using React Native to create the user interface.",
   },
   {
     year: 2023,
@@ -28,15 +36,15 @@ const data = [
     img: "https://i.imgur.com/7QqV1WZ.png",
     link: "https://github.com/jor-dango/smuv",
     details:
-      "Primarily worked on the backend. Used Flask and Streamlit. Used Google Cloud Platform apis such as Cloud Natural Language and Cloud Storage. Pulled youtube video information with Google's Youtube API",
+      "Primarily worked on the backend leveraging Flask and Streamlit. Used Google Cloud Platform apis such as Cloud Natural Language and Cloud Storage. Pulled youtube video information with Google's Youtube API",
   },
 ];
 
 const Projects = () => {
   return (
     <div>
-      <div id="projects" className="max-w-[80%] m-auto lg: lg:pl-20 p-4 py-16">
-        <h1 className="text-5xl -translate-x-8 font-bold text-center text-[#979089] mb-12">
+      <div id="projects" className="max-w-[80%] m-auto p-4 py-16">
+        <h1 className="text-5xl font-bold text-center text-[#979089] mb-12">
           Projects
         </h1>
         {data.map((item, idx) => (
